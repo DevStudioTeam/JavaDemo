@@ -3,7 +3,8 @@ package com.igromov.simpleanagram;
 public class Main {
 
     public static void main(String[] args) {
-        boolean isInterrupted = false;
-        
+        AnagramGame anagramGame = new AnagramGame(new SimpleDictionary());
+
+        anagramGame.startLoop();
     }
 }
